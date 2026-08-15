@@ -12,5 +12,10 @@ export default defineWorkersProject({
 				},
 			},
 		},
+		coverage: {
+			provider: "v8",
+			reporter: ["cobertura"],
+			reportsDirectory: "./coverage",
+		},
 	},
 });
