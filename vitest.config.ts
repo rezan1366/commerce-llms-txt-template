@@ -13,7 +13,7 @@ export default defineWorkersProject({
 			},
 		},
 		coverage: {
-			provider: "v8",
+			provider: "istanbul",
 			reporter: ["cobertura"],
 			reportsDirectory: "./coverage",
 		},
